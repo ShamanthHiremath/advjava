@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Payroll</title>
+</head>
+<body>
+    <h2>Enter Employee Payroll Details</h2>
+    <form action="PayrollServlet" method="post">
+        <!-- <label for="employeeName">Employee Name:</label> -->
+        Employee Name: <input type="text" name="employeeName" required><br><br>
+
+        <!-- <label for="hoursWorked">Number of Hours Worked:</label> -->
+        Number of Hours Worked: <input type="number" name="hoursWorked" required><br><br>
+
+        <!-- <label for="hourlyRate">Hourly Pay Rate ($):</label> -->
+        Hourly Pay Rate ($): <input type="number" name="hourlyRate" step="0.01" required><br><br>
+
+
+        <button type="submit">Calculate Payroll</button>
+    </form>
+</body>
+</html>
